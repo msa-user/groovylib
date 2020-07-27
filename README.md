@@ -1,0 +1,2 @@
+# groovylib
+library jenkins pipeline
