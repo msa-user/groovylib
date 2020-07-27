@@ -4,4 +4,5 @@ def call(String name = 'human') {
     echo "Hello, ${name}."
     String tt=Cluster.view(this)
     echo "Yo, ${tt}"
+    script.log.warn "Exception: NO"
 }
