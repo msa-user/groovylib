@@ -1,7 +1,7 @@
 class Cluster {
 
-    static void view(script)  {
-    println env.PATH
+    static String view(script)  {
+    return script.env.PATH
     }
 
 }
