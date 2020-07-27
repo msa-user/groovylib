@@ -1,7 +1,7 @@
 class Cluster {
 
     static void view(script)  {
-    echo "${script.env.PATH}"
+    println script.env.PATH
     }
 
 }
